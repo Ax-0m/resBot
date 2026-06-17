@@ -1,0 +1,9 @@
+{
+  "name": "ai-service",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": ".venv/bin/uvicorn main:app --reload --port 8001",
+    "check-types": "echo 'Python type checking comes later'"
+  }
+}
